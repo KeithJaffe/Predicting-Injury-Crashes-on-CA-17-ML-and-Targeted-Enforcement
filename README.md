@@ -1,6 +1,6 @@
 # Predicting Injury Crashes on California Highway 17
 
-**Author:** Keith Jaffe, University of California, Santa Cruz (kljaffe@ucsc.edu)
+**Author:** Keith Jaffe, University of California, Santa Cruz
 
 This repository contains all code, results, and figures for a paper that asks two questions about California Highway 17: Can machine learning reliably predict the hours when injury crashes are most likely to occur, and would pairing those predictions with targeted CHP enforcement be economically justified?
 
