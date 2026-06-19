@@ -1,0 +1,21 @@
+{
+  "cv_trees": 500,
+  "final_trees": 5000,
+  "best_params": {
+    "max.depth": 4,
+    "min.node.size": 5,
+    "mtry": 141,
+    "sample.fraction": 0.7
+  },
+  "cv_mean_youden": 0.2596,
+  "cv_std_youden": 0.0325,
+  "threshold": 0.026,
+  "auc_test": 0.6614,
+  "sensitivity": 0.7131,
+  "fpr": 0.4904,
+  "flagged": 20652,
+  "tp": 778,
+  "fp": 19874,
+  "tn": 20650,
+  "fn": 313
+}

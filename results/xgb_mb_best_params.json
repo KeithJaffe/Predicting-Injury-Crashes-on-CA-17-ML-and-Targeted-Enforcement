@@ -1,0 +1,25 @@
+{
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": [
+      "logloss",
+      "auc"
+    ],
+    "colsample_bynode": 0.8,
+    "eta": 0.05,
+    "tree_method": "hist",
+    "seed": 18,
+    "max_depth": 4,
+    "min_child_weight": 20,
+    "reg_lambda": 10.0,
+    "subsample": 0.7,
+    "scale_pos_weight": 37.220560747663555
+  },
+  "final_rounds": 103,
+  "cv_mean_youden": 0.2791,
+  "cv_std_youden": 0.0221,
+  "test_auc": 0.6785735870183095,
+  "test_sensitivity": 0.6416131989000916,
+  "test_fpr": 0.38342710492547627,
+  "test_flagged": 16238
+}

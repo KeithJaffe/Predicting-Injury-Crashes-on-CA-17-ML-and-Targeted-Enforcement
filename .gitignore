@@ -1,0 +1,57 @@
+# Raw data files - not tracked (large, proprietary sources)
+# SWITRS / TIMS accident data
+*.xlsx
+*.xls
+hw17_accident*.csv
+sc_accident*.csv
+scl_accident*.csv
+rough_accident_data/
+
+# Caltrans PeMS raw sensor files
+Road_Volume/
+*.txt.gz
+pems_rough.csv
+pems_final.csv
+
+# Visual Crossing weather CSVs
+sc_weather/
+scl_weather/
+summit_weather/
+Santa_Cruz.*.csv
+SCL_*.csv
+Summit_*.csv
+weather_sc.csv
+weather_scl.csv
+weather_summit.csv
+
+# Intermediate / merged data
+*.feather
+*.rds
+master_data*.csv
+large_data.csv
+final_master_data_cleaned.rds
+final_master_data_filtered.rds
+
+# Model prediction output CSVs (large, regenerable)
+rf_test_preds.csv
+xgb_test_preds.csv
+
+# R session artifacts
+.RData
+.Rhistory
+*.Rproj
+*.Rproj.user/
+
+# Python virtual environment and cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
